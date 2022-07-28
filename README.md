@@ -1,5 +1,6 @@
 # PythonProjects
 Python Programs
+
 These codes were made while doing the course: "100 Days of Code: The Complete Python Pro Bootcamp for 2022 on Udemy.
 
 Beginner level projects:
