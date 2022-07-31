@@ -8,4 +8,5 @@ Beginner level projects:
 2. Hangman
 3. Caesar cypher
 4. Blackjack
-5 Password generator
+5. Password generator
+6. Guess the number (game)
