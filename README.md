@@ -10,3 +10,10 @@ Beginner level projects:
 4. Blackjack
 5. Password generator
 6. Guess the number (game)
+
+Intermediate level prjects:
+1. Snake Game
+2. Pong Game
+3. Quiz Game
+4. Hirst painting generator
+5. Coffee Machine Simulator
