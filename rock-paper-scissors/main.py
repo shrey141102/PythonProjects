@@ -28,35 +28,42 @@ scissors = '''
 '''
 
 l = [rock, paper, scissors]
-print("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n")
+print("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.")
 n = int(input())
 r = random.randint(0,2)
-if n>2: print("invalid")
+if n>2: print("Invalid input")
 c = "y"
 
 
 while c == "y" or c=="Y":
-    print(f' you chose \n {l[n]}')
-    print(f'computer chose \n {l[r]}')
+    print(f'\nYou chose : \n {l[n]}\n')
+    print(f'Computer chose : \n {l[r]}\n')
     if n == r:
-      print("Draw")
+      print(" It's a Draw!! ")
     elif n==0:
       if r == 1:
-        print("You lose")
+        print("You lose! :( ")
       if r == 2:
-        print("You win")
+        print("You win! :) ")
 
     elif n==1:
       if r == 2:
-        print("You lose")
+        print("You lose! :( ")
       if r == 0:
-        print("You win")
+        print("You win! :) ")
 
     else:
       if r == 0:
-        print("You lose :(")
+        print("You lose! :(")
       if r == 1:
-        print("You win :)")
+        print("You win! :)")
 
-    print("do you want to continue? press y for continue else to discontinue.\n")
+    print("\nDo you want to continue? Press y for continue else press n to discontinue: ")
     c = (input())
+    if(c!="y" and c!="Y"): break
+    print("Enter your choice again! Type 0 for Rock, 1 for Paper or 2 for Scissors")
+    n = int(input())
+    r = random.randint(0,2)
+
+print("\nHope you enjoyed playing ;)\n")
+
