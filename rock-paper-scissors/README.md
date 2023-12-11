@@ -22,3 +22,8 @@ You can find the "official" rules of the game on [the World Rock Paper Scissors 
 # Solution
 
 [https://replit.com/@appbrewery/rock-paper-scissors-end](https://replit.com/@appbrewery/rock-paper-scissors-end)
+
+# Bugs fixed : 
+1. The code didn't generate random values when user wished for a replay and also the code didn't take the user's 'replay-input'. Fixed it.
+2. Added more user interactive code at the bottom which facilitates for more clarity to the user while replay
+3. Fixed few lines for proper termination of the game by asking the user's input itself i.e asking to press 'n' for the play to end.
