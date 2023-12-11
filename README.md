@@ -11,14 +11,17 @@ Welcome to PythonProjects, a repository containing a collection of fun and educa
   - [Guess the Number](#guess-the-number-game)
   - [Hangman](#hangman)
   - [Password Generator](#password-generator)
+  - [PiFiglet](#pifiglet)
   - [Rock Paper Scissors](#rock-paper-scissors)
   - [US States Game](#us-states-game)
   
 - [Intermediate Level Projects](#intermediate-level-projects)
+  - [ChatApp](#chat-app)
   - [Coffee Machine Simulator](#coffee-machine-simulator)
   - [Currency Converter](#currency-converter)
   - [Hirst Painting Generator](#hirst-painting-generator)
   - [Quiz Game](#quiz-game)
+  - [MineSweeper](#mine-sweeper)
   - [NATO Alphabet](#nato-alphabet)
   - [Pong Game](#pong-game)
   - [Snake Game](#snake-game)
@@ -45,6 +48,9 @@ Guess the word before the stick figure is fully drawn! A great project for pract
 ### Password Generator
 Generate strong and secure passwords with a custom password generator. An essential tool for cybersecurity enthusiasts.
 
+### PiFiglet
+A simple python program to change the font into a given font style.  
+
 ### Rock Paper Scissors
 Classic rock-paper-scissors game to test your luck against the computer. Simple yet entertaining.
 
@@ -52,6 +58,9 @@ Classic rock-paper-scissors game to test your luck against the computer. Simple 
 Try to guess all the states in the U.S. with an interactive map using the built-in turtle module in Python.
 
 ## Intermediate Level Projects
+
+### ChatApp
+A live chat application to help you familiarise yourself with sockets and routes. 
 
 ### Coffee Machine Simulator
 Simulate a coffee machine with customizable drink options. Perfect for practicing object-oriented programming and user interfaces.
@@ -64,6 +73,9 @@ Generate mesmerizing Hirst-inspired paintings with random color patterns. Explor
 
 ### Quiz Game
 Create and play quizzes with a simple quiz game. Dive into file handling and user interaction in this educational project.
+
+### Minesweeper
+A classic game to send you all down the nostalgic road. Explore how to create GUIs using tkinter.
 
 ### NATO Alphabet
 Tired of getting confused between similar sounding alphabets? Use the NATO alphabet project to distinguish between these characters. This project uses list and dictionary comprehension and familiarises you with pandas.
