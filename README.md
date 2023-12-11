@@ -5,10 +5,11 @@ Welcome to PythonProjects, a repository containing a collection of fun and educa
 ## Table of Contents
 
 - [Beginner Level Projects](#beginner-level-projects)
+  - [Alarm Clock](#alarm-clock)
+  - [Blackjack](#blackjack)
   - [Rock Paper Scissors](#rock-paper-scissors)
   - [Hangman](#hangman)
   - [Caesar Cipher](#caesar-cipher)
-  - [Blackjack](#blackjack)
   - [Password Generator](#password-generator)
   - [Guess the Number](#guess-the-number-game)
   
@@ -21,6 +22,12 @@ Welcome to PythonProjects, a repository containing a collection of fun and educa
 
 ## Beginner Level Projects
 
+### Alarm Clock 
+A beginner level project where you can enter the time you want to get up at. Perfect for beginners to learn about python.
+
+### Blackjack
+Experience the thrill of the casino with a simple text-based Blackjack game. Perfect for learning about game logic and conditional statements.
+
 ### Rock Paper Scissors
 Classic rock-paper-scissors game to test your luck against the computer. Simple yet entertaining.
 
@@ -29,9 +36,6 @@ Guess the word before the stick figure is fully drawn! A great project for pract
 
 ### Caesar Cipher
 Encrypt and decrypt messages using the famous Caesar Cipher. Explore the world of cryptography with this beginner-friendly project.
-
-### Blackjack
-Experience the thrill of the casino with a simple text-based Blackjack game. Perfect for learning about game logic and conditional statements.
 
 ### Password Generator
 Generate strong and secure passwords with a custom password generator. An essential tool for cybersecurity enthusiasts.
