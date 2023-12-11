@@ -61,7 +61,7 @@ def click(num):
         if  (b1==b2==b3==1) or (b1==b4==b7==1) or (b2==b5==b8==1) or \
             (b3==b6==b9==1) or (b4==b5==b6==1) or (b7==b8==b9==1) or \
             (b1==b5==b9==1) or (b3==b5==b7==1):
-            l=ttk.Label(root,text="O won!",width=10)
+            l=ttk.Label(root,text="X won!",width=10)
             l.grid(row=5,column=2)
         
     elif i==1:
