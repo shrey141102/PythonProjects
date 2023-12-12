@@ -25,6 +25,7 @@ Welcome to PythonProjects, a repository containing a collection of fun and educa
   - [NATO Alphabet](#nato-alphabet)
   - [Pong Game](#pong-game)
   - [Snake Game](#snake-game)
+  - [Type Speed Test](#type-speed-test)
   - [Turtle Crossing Game](#turtle-crossing-game)
   - [Web Scraper](#web-scraper)
 
@@ -85,6 +86,10 @@ A classic Pong game that will test your reflexes. Explore game physics and colli
 
 ### Snake Game
 Take a nostalgic trip to the retro gaming era with a classic Snake Game. Dive into event-driven programming and handling user input.
+
+
+### Type Speed Test
+Get ready to test your typing speed with this simple application. Choose your difficulty level and start typing! The project is based on simple GUI using tkinter.
 
 ### Turtle Crossing Game
 This project is a Mini-Game in Python, following OOP and using the Turtle module. The goal of this game is to help a turtle to cross the street.
