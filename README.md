@@ -14,6 +14,7 @@ Welcome to PythonProjects, a repository containing a collection of fun and educa
   - [Vigenere Cypher](#vigenere-cypher)
   - [Modified Vigenere Cypher](#modified-vigenere-cypher)
   - [Tic Tac Toe](#tic-tac-toe)
+  - [Typing Speed and Accuracy Test](#typing-speed-and-accuracy-test)
   
 - [Intermediate Level Projects](#intermediate-level-projects)
   - [Snake Game](#snake-game)
@@ -50,6 +51,9 @@ Encrypt your messages using a modified Vigenere Cipher. A fun and challenging pr
 
 ### Tic Tac Toe
 Play the classic Tic Tac Toe game with your friends. A simple and lightweigh game for any machine.
+
+### Typing Speed and Accuracy Test
+Unleash your typing skills with a typing speed and accuracy test. A great project for practicing file handling and string manipulation.
 
 ## Intermediate Level Projects
 
