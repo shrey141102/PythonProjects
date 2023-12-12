@@ -11,6 +11,7 @@ Welcome to PythonProjects, a repository containing a collection of fun and educa
   - [Blackjack](#blackjack)
   - [Password Generator](#password-generator)
   - [Guess the Number](#guess-the-number-game)
+  - [Vigenere Cypher](#vigenere-cypher)
   - [Modified Vigenere Cypher](#modified-vigenere-cypher)
   
 - [Intermediate Level Projects](#intermediate-level-projects)
@@ -39,6 +40,9 @@ Generate strong and secure passwords with a custom password generator. An essent
 
 ### Guess the Number (Game)
 Test your guessing skills with a number-guessing game. Challenge the computer to pick the correct number within a limited range.
+
+### Vigenere Cypher
+Encrypt and decrypt messages using the Vigenere Cipher. A great project for cryptography enthusiasts.
 
 ### Modified Vigenere Cypher
 Encrypt your messages using a modified Vigenere Cipher. A fun and challenging project for cryptography enthusiasts.
