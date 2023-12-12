@@ -13,6 +13,7 @@ Welcome to PythonProjects, a repository containing a collection of fun and educa
   - [Guess the Number](#guess-the-number-game)
   - [Vigenere Cypher](#vigenere-cypher)
   - [Modified Vigenere Cypher](#modified-vigenere-cypher)
+  - [Tic Tac Toe](#tic-tac-toe)
   
 - [Intermediate Level Projects](#intermediate-level-projects)
   - [Snake Game](#snake-game)
@@ -46,6 +47,9 @@ Encrypt and decrypt messages using the Vigenere Cipher. A great project for cryp
 
 ### Modified Vigenere Cypher
 Encrypt your messages using a modified Vigenere Cipher. A fun and challenging project for cryptography enthusiasts.
+
+### Tic Tac Toe
+Play the classic Tic Tac Toe game with your friends. A simple and lightweigh game for any machine.
 
 ## Intermediate Level Projects
 
