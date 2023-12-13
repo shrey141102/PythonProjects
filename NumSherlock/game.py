@@ -106,7 +106,7 @@ while running:
     elif(c==1):
             text_lines = [
             "Check for your number and click 'yes' if present or else 'no'",
-            " c = 1",
+            " ",
             "16  17  18  19  20  21  22  23",
             "24  25  26  27  28  29  30  31",
             "48  49  50  51  52  53  54  55",
@@ -180,7 +180,7 @@ while running:
     elif(c==2):
             text_lines = [
             "Check for your number and click 'yes' if present or else 'no'",
-            " c = 2 ",
+            " ",
             "02  03  06  07  10  11  14  15",
             "18  19  22  23  26  27  30  31",
             "34  35  38  39  42  43  46  47",
@@ -254,7 +254,7 @@ while running:
     elif(c==3):
             text_lines = [
             "Check for your number and click 'yes' if present or else 'no'",
-            " c = 3 ",
+            " ",
             "64  65  66  67  68  69  70  71",
             "72  73  74  75  76  77  78  79",
             "80  81  82  83  84  85  86  87",
@@ -328,7 +328,7 @@ while running:
     elif(c==4):
             text_lines = [
             "Check for your number and click 'yes' if present or else 'no'",
-            " c = 4 ",
+            " ",
             "32  33  34  35  36  37  38  39",
             "40  41  42  43  44  45  46  47",
             "48  49  50  51  52  53  54  55",
@@ -400,7 +400,7 @@ while running:
     elif(c==5):
             text_lines = [
             "Check for your number and click 'yes' if present or else 'no'",
-            " c = 5 ",
+            " ",
             "04  05  06  07  12  13  14  15",
             "20  21  22  23  28  29  30  31",
             "36  37  38  39  44  45  46  47",
@@ -474,7 +474,7 @@ while running:
     elif(c==6):
             text_lines = [
             "Check for your number and click 'yes' if present or else 'no'",
-            " c = 6 ",
+            " ",
             "08  09  10  11  12  13  14  15",
             "24  25  26  27  28  29  30  31",
             "40  41  42  43  44  45  46  47",
@@ -547,7 +547,7 @@ while running:
     elif(c==7):
             text_lines = [
             "Check for your number and click 'yes' if present or else 'no'",
-            " c = 7 ",
+            " ",
             "01  03  05  07  09  11  13  15",
             "17  19  21  23  25  27  29  31",
             "33  35  37  39  41  43  45  47",
