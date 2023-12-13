@@ -1,0 +1,5 @@
+streamlit 
+pandas
+textblob
+cleantext
+xlrd>=2.0.1
