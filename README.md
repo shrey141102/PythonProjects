@@ -15,6 +15,7 @@ Welcome to PythonProjects, a repository containing a collection of fun and educa
   - [Modified Vigenere Cypher](#modified-vigenere-cypher)
   - [Tic Tac Toe](#tic-tac-toe)
   - [Typing Speed and Accuracy Test](#typing-speed-and-accuracy-test)
+  - [Memory Tiles](#memory-tiles)
   
 - [Intermediate Level Projects](#intermediate-level-projects)
   - [Snake Game](#snake-game)
@@ -54,6 +55,9 @@ Play the classic Tic Tac Toe game with your friends. A simple and lightweigh gam
 
 ### Typing Speed and Accuracy Test
 Unleash your typing skills with a typing speed and accuracy test. A great project for practicing file handling and string manipulation.
+
+### Memory Tiles
+Test your photographic memory with this cool nostalgic game of matching same pair of tiles. A good project for learning tkinter in python for GUI and game logic.
 
 ## Intermediate Level Projects
 
