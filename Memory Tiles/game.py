@@ -53,7 +53,7 @@ class MemoryTile:
                 # If no tiles are left, show success message and restart the game after a delay
                 if not any(''.join(row) for row in self.answer):
                     duration = time.monotonic() - self.start_time
-                    messagebox.showinfo(title='Success!', message='You win! Time: {:.1f}'.format(duration))
+                    messagebox.showinfo(title='Success!', message='You win! Time: {:.1f}s'.format(duration))
                     self.parent.after(750, self.initialize_game)
             else:
                 # If tiles don't match, hide them after a delay
