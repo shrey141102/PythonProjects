@@ -23,6 +23,7 @@ Welcome to PythonProjects, a repository containing a collection of fun and educa
   - [Quiz Game](#quiz-game)
   - [Hirst Painting Generator](#hirst-painting-generator)
   - [Coffee Machine Simulator](#coffee-machine-simulator)
+  - [Num Sherlock](#num-sherlock)
 
 ## Beginner Level Projects
 
@@ -75,6 +76,9 @@ Generate mesmerizing Hirst-inspired paintings with random color patterns. Explor
 
 ### Coffee Machine Simulator
 Simulate a coffee machine with customizable drink options. Perfect for practicing object-oriented programming and user interfaces.
+
+### Num Sherlock
+Get your mind read by Sherlock Holmes with this amazing number-based game. Perfect for learning GUI with pygame, game logic and conditional statements.
 
 ## Contributing
 
