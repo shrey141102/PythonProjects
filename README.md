@@ -15,6 +15,7 @@ Welcome to PythonProjects, a repository containing a collection of fun and educa
   - [Modified Vigenere Cypher](#modified-vigenere-cypher)
   - [Tic Tac Toe](#tic-tac-toe)
   - [Typing Speed and Accuracy Test](#typing-speed-and-accuracy-test)
+  - [Memory Tiles](#memory-tiles)
   
 - [Intermediate Level Projects](#intermediate-level-projects)
   - [Snake Game](#snake-game)
@@ -25,6 +26,7 @@ Welcome to PythonProjects, a repository containing a collection of fun and educa
   - [Quiz Game](#quiz-game)
   - [Hirst Painting Generator](#hirst-painting-generator)
   - [Coffee Machine Simulator](#coffee-machine-simulator)
+  - [Num Sherlock](#num-sherlock)
 
 ## Beginner Level Projects
 
@@ -58,6 +60,9 @@ Play the classic Tic Tac Toe game with your friends. A simple and lightweigh gam
 ### Typing Speed and Accuracy Test
 Unleash your typing skills with a typing speed and accuracy test. A great project for practicing file handling and string manipulation.
 
+### Memory Tiles
+Test your photographic memory with this cool nostalgic game of matching same pair of tiles. A good project for learning tkinter in python for GUI and game logic.
+
 ## Intermediate Level Projects
 
 ### Snake Game
@@ -81,6 +86,9 @@ Generate mesmerizing Hirst-inspired paintings with random color patterns. Explor
 
 ### Coffee Machine Simulator
 Simulate a coffee machine with customizable drink options. Perfect for practicing object-oriented programming and user interfaces.
+
+### Num Sherlock
+Get your mind read by Sherlock Holmes with this amazing number-based game. Perfect for learning GUI with pygame, game logic and conditional statements.
 
 ## Contributing
 
