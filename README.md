@@ -18,6 +18,9 @@ Welcome to PythonProjects, a repository containing a collection of fun and educa
   
 - [Intermediate Level Projects](#intermediate-level-projects)
   - [Snake Game](#snake-game)
+  - [Type Speed Test](#type-speed-test)
+  - [Turtle Crossing Game](#turtle-crossing-game)
+  - [Web Scraper](#web-scraper)
   - [Pong Game](#pong-game)
   - [Quiz Game](#quiz-game)
   - [Hirst Painting Generator](#hirst-painting-generator)
@@ -66,8 +69,15 @@ A classic Pong game that will test your reflexes. Explore game physics and colli
 ### Quiz Game
 Create and play quizzes with a simple quiz game. Dive into file handling and user interaction in this educational project.
 
+### Type Speed Test
+Get ready to test your typing speed with this simple application. Choose your difficulty level and start typing! The project is based on simple GUI using tkinter.
+
+### Turtle Crossing Game
+This project is a Mini-Game in Python, following OOP and using the Turtle module. The goal of this game is to help a turtle to cross the street.
+
 ### Hirst Painting Generator
 Generate mesmerizing Hirst-inspired paintings with random color patterns. Explore the world of turtle graphics and artistic programming.
+
 
 ### Coffee Machine Simulator
 Simulate a coffee machine with customizable drink options. Perfect for practicing object-oriented programming and user interfaces.
