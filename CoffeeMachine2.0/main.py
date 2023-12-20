@@ -19,6 +19,3 @@ while still_on:
         drink = m.find_drink(s)
         if cm.is_resource_sufficient(drink) and mm.make_payment(drink.cost):
             cm.make_coffee(drink)
-
-
-

@@ -5,7 +5,7 @@ import pyfiglet
 font = input("Enter type of font\n") or "slant"
 text = str(input("Enter your text\n")) or "Text"
 
-with open('fonts.txt') as f:
+with open("fonts.txt") as f:
     arr = f.read().split()
 
 if font in arr:
