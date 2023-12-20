@@ -18,6 +18,6 @@ A fun game to test your guessing powers. Guess the 4 digits number in less guess
    ```
 
 ## Snapshots
-![Alt text](image.png)
+- ![1](image.png)
 
-![Alt text](image-1.png)
+- ![2](image-1.png)
