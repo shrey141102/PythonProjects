@@ -16,6 +16,7 @@ Welcome to PythonProjects, a repository containing a collection of fun and educa
   - [Tic Tac Toe](#tic-tac-toe)
   - [Typing Speed and Accuracy Test](#typing-speed-and-accuracy-test)
   - [Memory Tiles](#memory-tiles)
+  - [Screen Recorder](#screen-recorder)
   
 - [Intermediate Level Projects](#intermediate-level-projects)
   - [Snake Game](#snake-game)
@@ -62,6 +63,9 @@ Unleash your typing skills with a typing speed and accuracy test. A great projec
 
 ### Memory Tiles
 Test your photographic memory with this cool nostalgic game of matching same pair of tiles. A good project for learning tkinter in python for GUI and game logic.
+
+### Screen Recorder
+This is a simple Python script that can record your screen to a video file. 
 
 ## Intermediate Level Projects
 
