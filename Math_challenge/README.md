@@ -11,4 +11,4 @@ python TimedMathChallenge.py
 
 ## Snapshot 
 
-![Output](image.png)
+![image](https://github.com/kaiwalyani/PythonProjects/assets/116161221/dc5ad24b-cb44-4d60-b148-5751854c8ec3)
