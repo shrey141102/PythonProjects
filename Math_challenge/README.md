@@ -11,4 +11,4 @@ python TimedMathChallenge.py
 
 ## Snapshot 
 
-![Alt text](image.png)
+![Output](image.png)
