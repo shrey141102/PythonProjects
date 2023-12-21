@@ -17,6 +17,7 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
   - [Typing Speed and Accuracy Test](#typing-speed-and-accuracy-test)
   - [Memory Tiles](#memory-tiles)
   - [Timed Math Challenge](#timed-math-challenge)
+  - [Mad Libs](#mad_libs)
   
 - [Intermediate Level Projects](#intermediate-level-projects)
   - [Snake Game](#snake-game)
@@ -66,6 +67,10 @@ Test your photographic memory with this nostalgic game of matching pairs of tile
 
 ### Timed Math Challenge
 This simple Python script is an arithmetic quiz game that generates random arithmetic problems for the user to solve.
+
+### Mad_Libs
+This Python script generates amusing and random stories using the Mad Libs format.
+
 
 ## Intermediate Level Projects
 
