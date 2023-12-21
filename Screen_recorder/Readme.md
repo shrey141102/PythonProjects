@@ -16,3 +16,6 @@ This is a simple Python script that can record your screen to a video file.
 2. Enter a filename (without extension).
 3. It will record your screen for 5 seconds by default. You can change this by modifying the `recording_duration`.
 4. The recorded video will be saved as `filename_YYYY-MM-DD_HH-MM-SS.mp4`.
+
+**Example**
+<video src="test_2023-12-15_12-46-51.mp4" controls title="TEST"></video>
