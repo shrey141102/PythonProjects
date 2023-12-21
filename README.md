@@ -17,6 +17,9 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
   - [Typing Speed and Accuracy Test](#typing-speed-and-accuracy-test)
   - [Memory Tiles](#memory-tiles)
   - [Screen Recorder](#screen-recorder)
+  - [Timed Math Challenge](#timed-math-challenge)
+  - [Mad Libs](#mad_libs)
+
   
 - [Intermediate Level Projects](#intermediate-level-projects)
   - [Snake Game](#snake-game)
@@ -28,6 +31,7 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
   - [Coffee Machine Simulator](#coffee-machine-simulator)
   - [Num Sherlock](#num-sherlock)
   - [Drowsiness Detection](#drowsiness-detection)
+  - [Mastermind Game](#mastemind-game)
 
 ## Beginner Level Projects
 
@@ -67,6 +71,13 @@ Test your photographic memory with this nostalgic game of matching pairs of tile
 ### Screen Recorder
 This is a simple Python script that can record your screen to a video file. 
 
+### Timed Math Challenge
+This simple Python script is an arithmetic quiz game that generates random arithmetic problems for the user to solve.
+
+### Mad_Libs
+This Python script generates amusing and random stories using the Mad Libs format.
+
+
 ## Intermediate Level Projects
 
 ### Snake Game
@@ -95,6 +106,9 @@ Engage your mind with a number-based game featuring Sherlock Holmes. Learn GUI w
 
 ### Drowsiness Detection
 Detect drowsiness by analyzing eyes and receive alerts. Enhance your understanding of computer vision with this valuable project.
+
+### Mastemind Game
+A fun game to test your guessing powers. Guess the 4 digits number in less guesses as possible. Digits will be revealed as soon as you guessed it correctly.
 
 ## Contributing
 
