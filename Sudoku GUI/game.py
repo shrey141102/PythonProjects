@@ -15,7 +15,7 @@ BLUE = (0, 0, 255)
 RED = (255, 0, 0)
 
 # Set the dimensions of the screen
-WIDTH, HEIGHT = 540, 580
+WIDTH, HEIGHT = 540, 600
 CELL_SIZE = 60
 GRID_SIZE = 9
 BOARD_SIZE = CELL_SIZE * GRID_SIZE
