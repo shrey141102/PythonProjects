@@ -32,6 +32,7 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
   - [Num Sherlock](#num-sherlock)
   - [Drowsiness Detection](#drowsiness-detection)
   - [Mastermind Game](#mastemind-game)
+  - [Sudoku](#sudoku)
 
 ## Beginner Level Projects
 
@@ -109,6 +110,9 @@ Detect drowsiness by analyzing eyes and receive alerts. Enhance your understandi
 
 ### Mastemind Game
 A fun game to test your guessing powers. Guess the 4 digits number in less guesses as possible. Digits will be revealed as soon as you guessed it correctly.
+
+### Sudoku
+Embark yourself in a Sudoku quest. Perfect for learning object-oriented programming, GUI with pygame, backtracking and conditional statements.
 
 ## Contributing
 
