@@ -16,8 +16,10 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
   - [Tic Tac Toe](#tic-tac-toe)
   - [Typing Speed and Accuracy Test](#typing-speed-and-accuracy-test)
   - [Memory Tiles](#memory-tiles)
+  - [Screen Recorder](#screen-recorder)
   - [Timed Math Challenge](#timed-math-challenge)
   - [Mad Libs](#mad_libs)
+
   
 - [Intermediate Level Projects](#intermediate-level-projects)
   - [Snake Game](#snake-game)
@@ -65,6 +67,9 @@ Sharpen your typing skills with a speed and accuracy test. Practice file handlin
 
 ### Memory Tiles
 Test your photographic memory with this nostalgic game of matching pairs of tiles. Learn tkinter for GUI and game logic in Python.
+
+### Screen Recorder
+This is a simple Python script that can record your screen to a video file. 
 
 ### Timed Math Challenge
 This simple Python script is an arithmetic quiz game that generates random arithmetic problems for the user to solve.
