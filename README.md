@@ -29,6 +29,7 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
   - [Coffee Machine Simulator](#coffee-machine-simulator)
   - [Num Sherlock](#num-sherlock)
   - [Drowsiness Detection](#drowsiness-detection)
+  - [Mastermind Game](#mastemind-game)
 
 ## Beginner Level Projects
 
@@ -100,6 +101,9 @@ Engage your mind with a number-based game featuring Sherlock Holmes. Learn GUI w
 
 ### Drowsiness Detection
 Detect drowsiness by analyzing eyes and receive alerts. Enhance your understanding of computer vision with this valuable project.
+
+### Mastemind Game
+A fun game to test your guessing powers. Guess the 4 digits number in less guesses as possible. Digits will be revealed as soon as you guessed it correctly.
 
 ## Contributing
 
