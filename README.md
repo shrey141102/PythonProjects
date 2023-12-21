@@ -16,6 +16,7 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
   - [Tic Tac Toe](#tic-tac-toe)
   - [Typing Speed and Accuracy Test](#typing-speed-and-accuracy-test)
   - [Memory Tiles](#memory-tiles)
+  - [Timed Math Challenge](#timed-math-challenge)
   - [Mad Libs](#mad_libs)
   
 - [Intermediate Level Projects](#intermediate-level-projects)
@@ -64,8 +65,12 @@ Sharpen your typing skills with a speed and accuracy test. Practice file handlin
 ### Memory Tiles
 Test your photographic memory with this nostalgic game of matching pairs of tiles. Learn tkinter for GUI and game logic in Python.
 
+### Timed Math Challenge
+This simple Python script is an arithmetic quiz game that generates random arithmetic problems for the user to solve.
+
 ### Mad_Libs
 This Python script generates amusing and random stories using the Mad Libs format.
+
 
 ## Intermediate Level Projects
 
