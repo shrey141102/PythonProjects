@@ -1,54 +1,46 @@
-# It is a basic program on simple arithmatic calculator
+#A basic arithmetic calculator
+print("WELCOME TO OUR CAlCULATOR!!!!!!!!!!!!")# welcome message to the user
+num1 = int(input("Enter the 1st number: "))# values for num1
+num2 = int(input("Enter the 2nd number")) # values for num2
 
-num1=int(input("eneter a digit: "))
-num2=int(input("eneter a another digit: "))
-# defination for operators
+op = input("Enter +/*///- : Add,Sub,Mul,Div") #commands for operations
 
-#addition
-def add(num1, num2):
-    return num1+num2
-#substraction
-def subtract(num1, num2):
-    return num1-num2
-#multiply
-def multiply(num1, num2):
-    return num1*num2
-#division
-def divide(num1, num2):
-    return num1/num2
+# addition function
+def add(n1,n2):
+    return n1+n2
 
-#command for operation
-print("choose operation: ")
-print("press 1 for add: ")
-print("press 2 for subs: ")
-print("press 3 for multiply: ")
-print("press 4 for devision: ")
+# substraction function 
+def sub(n1,n2):
+    return n1-n2
+
+# multiplication function 
+def mul(n1,n2):
+    return n1*n2
+
+#division function
+def div(n1,n2):
+    return n1/n2
+
+
+
+# While for N number of times to execute  
 
 while True:
-    # take input from the user
-    choice = input("Enter choice(1/2/3/4): ")
-
-    if choice in ('1', '2', '3', '4'):
-
-        if choice == '1':
-            print(num1, "+", num2, "=", add(num1, num2))
-
-        elif choice == '2':
-            print(num1, "-", num2, "=", subtract(num1, num2))
-
-        elif choice == '3':      
-            print(num1, "*", num2, "=", multiply(num1, num2))
-
-
-
-
-
-        elif choice == '4':
-            print(num1, "/", num2, "=", divide(num1, num2))
-        # check if user wants another calculation
-        # break the while loop if answer is no
-        next_calculation = input("Let's do next calculation? (yes/no): ")
-        if next_calculation == "no":
-            break
-
+    if op == "+":
+        print("Here is the Sum of two number :",add(num1,num2))
     
+    elif op == "-":
+        print("Here is the subtraction of two number :",add(num1,num2))
+
+    elif op == "*":
+        print("Here is the multiplication of two number :",add(num1,num2))
+
+    elif op == "/":
+        print("Here is the division of two number :",add(num1,num2))
+    
+# take input from user whether they want to continue or not
+    choice = input("Do you want to continue?(y/n)")
+
+    if choice == "n":
+        break
+
