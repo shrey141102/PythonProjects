@@ -27,16 +27,16 @@ def div(n1,n2):
 
 while True:
     if op == "+":
-        print("Here is the Sum of two number :",add(num1,num2))
+        print("Here is the Sum of two number :",add(num1,num2)) # it will give output for addtion operation
     
     elif op == "-":
-        print("Here is the subtraction of two number :",add(num1,num2))
+        print("Here is the subtraction of two number :",add(num1,num2)) # it will give output for subtraction
 
     elif op == "*":
-        print("Here is the multiplication of two number :",add(num1,num2))
+        print("Here is the multiplication of two number :",add(num1,num2)) # it will give output for multiplication
 
     elif op == "/":
-        print("Here is the division of two number :",add(num1,num2))
+        print("Here is the division of two number :",add(num1,num2)) # it will give output for division
     
 # take input from user whether they want to continue or not
     choice = input("Do you want to continue?(y/n)")
