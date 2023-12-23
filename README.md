@@ -19,6 +19,7 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
   - [Screen Recorder](#screen-recorder)
   - [Timed Math Challenge](#timed-math-challenge)
   - [Mad Libs](#mad_libs)
+  - [Image to Pencil Sketch Generator](#image_to_pencil_generator)
 
   
 - [Intermediate Level Projects](#intermediate-level-projects)
@@ -77,6 +78,9 @@ This simple Python script is an arithmetic quiz game that generates random arith
 
 ### Mad_Libs
 This Python script generates amusing and random stories using the Mad Libs format.
+
+### Image to Pencil Sketch Generator
+This program allows you to convert any image into a pencil sketch. A simple program which uses OpenCV.
 
 
 ## Intermediate Level Projects
