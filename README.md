@@ -20,6 +20,7 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
   - [Timed Math Challenge](#timed-math-challenge)
   - [Mad Libs](#mad_libs)
   - [Image to Pencil Sketch Generator](#image_to_pencil_generator)
+  - [Car Game](#car_game)
 
   
 - [Intermediate Level Projects](#intermediate-level-projects)
@@ -81,6 +82,9 @@ This Python script generates amusing and random stories using the Mad Libs forma
 
 ### Image to Pencil Sketch Generator
 This program allows you to convert any image into a pencil sketch. A simple program which uses OpenCV.
+
+### Car Game
+A simple python game that gets you ready for a safe drive on road by avoiding collisions.
 
 
 ## Intermediate Level Projects
