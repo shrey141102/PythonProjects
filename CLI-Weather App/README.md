@@ -1,0 +1,1 @@
+I have made an easy to use command line weather app using Python and power of APIs.Also I have used the open weather api for fetching the data. This app is easy to use and simple to understand just you need to enter your city name and you will get to know the weather of your city.
