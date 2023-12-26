@@ -21,6 +21,7 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
   - [Mad Libs](#mad_libs)
   - [Image to Pencil Sketch Generator](#image_to_pencil_generator)
   - [Car Game](#car_game)
+  - [CLI-Weather App](#'CLI-Weather App')
 
   
 - [Intermediate Level Projects](#intermediate-level-projects)
@@ -85,6 +86,9 @@ This program allows you to convert any image into a pencil sketch. A simple prog
 
 ### Car Game
 A simple python game that gets you ready for a safe drive on road by avoiding collisions.
+
+### CLI-Weather App
+An easy to use command line weather app using Python, using the power of APIs.
 
 
 ## Intermediate Level Projects
