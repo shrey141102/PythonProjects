@@ -10,18 +10,19 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
   - [Caesar Cipher](#caesar-cipher)
   - [Blackjack](#blackjack)
   - [Password Generator](#password-generator)
-  - [Guess the Number](#guess-the-number-game)
-  - [Vigenere Cipher](#vigenere-cypher)
-  - [Modified Vigenere Cipher](#modified-vigenere-cypher)
+  - [Guess the Number](#guess-the-number)
+  - [Vigenere Cipher](#vigenere-cipher)
+  - [Modified Vigenere Cipher](#modified-vigenere-cipher)
   - [Tic Tac Toe](#tic-tac-toe)
   - [Typing Speed and Accuracy Test](#typing-speed-and-accuracy-test)
   - [Memory Tiles](#memory-tiles)
   - [Screen Recorder](#screen-recorder)
   - [Timed Math Challenge](#timed-math-challenge)
-  - [Mad Libs](#mad_libs)
-  - [Image to Pencil Sketch Generator](#image_to_pencil_generator)
-  - [Car Game](#car_game)
-  - [CLI-Weather App](#'CLI-Weather App')
+  - [Mad Libs](#mad-libs)
+  - [Image to Pencil Sketch Generator](#image-to-pencil-sketch-generator)
+  - [Car Game](#car-game)
+  - [CLI-Weather App](#cli-weather-app)
+  - [Mini Wikipedia App CLI](#mini-wikipedia-app-cli)
 
   
 - [Intermediate Level Projects](#intermediate-level-projects)
@@ -78,7 +79,7 @@ This is a simple Python script that can record your screen to a video file.
 ### Timed Math Challenge
 This simple Python script is an arithmetic quiz game that generates random arithmetic problems for the user to solve.
 
-### Mad_Libs
+### Mad Libs
 This Python script generates amusing and random stories using the Mad Libs format.
 
 ### Image to Pencil Sketch Generator
@@ -89,6 +90,9 @@ A simple python game that gets you ready for a safe drive on road by avoiding co
 
 ### CLI-Weather App
 An easy to use command line weather app using Python, using the power of APIs.
+
+### Mini Wikipedia App CLI
+This is a simple program which utilizes the MediaWiki API to retrieve information such as page content, links, URLs, and more.
 
 
 ## Intermediate Level Projects
