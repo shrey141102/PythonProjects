@@ -37,6 +37,7 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
   - [Drowsiness Detection](#drowsiness-detection)
   - [Mastermind Game](#mastemind-game)
   - [Sudoku](#sudoku)
+  - [Space Invaders](#space-invaders)
 
 ## Beginner Level Projects
 
@@ -129,6 +130,9 @@ A fun game to test your guessing powers. Guess the 4 digits number in less guess
 
 ### Sudoku
 Embark yourself in a Sudoku quest. Perfect for learning object-oriented programming, GUI with pygame, backtracking and conditional statements.
+
+### Space Invaders
+A fun game of spaceships and spacewars!! Eliminate the enemies or you die ;) This is a perfect project for learning pygame module and game logic.
 
 ## Contributing
 
