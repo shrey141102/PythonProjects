@@ -24,7 +24,6 @@ def database():
     print("****************************************************************************")
     print(str(n) + ". " + "Create A New DataBase")
     print(str(n + 1) + ". " + "Exit From The Connection")
-    print(dbs)
     decision = 0
     while decision not in range(1, n + 1) :
         decision = int(input("Enter your choice => "))
