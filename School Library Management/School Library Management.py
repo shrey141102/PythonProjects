@@ -472,7 +472,7 @@ def issue_book() :
     decision = input("Are you sure you want to issue this book to this student?(y/n) => ")
     if decision == "y" :
         query = "insert into issued_books values(%s, %s, %s, %s, curdate())"
-        arg = (rno, d[0], acc_no, b[0])
+        arg = (acc_no, d[0], rno, b[0])
         cursor.execute(query, arg)
         cnx.commit()
         print("The given book has been issued.")
