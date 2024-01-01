@@ -1,0 +1,2 @@
+selenium==3.141.0
+tabulate==0.8.9

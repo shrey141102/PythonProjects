@@ -10,12 +10,20 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
   - [Caesar Cipher](#caesar-cipher)
   - [Blackjack](#blackjack)
   - [Password Generator](#password-generator)
-  - [Guess the Number](#guess-the-number-game)
-  - [Vigenere Cipher](#vigenere-cypher)
-  - [Modified Vigenere Cipher](#modified-vigenere-cypher)
+  - [Guess the Number](#guess-the-number)
+  - [Vigenere Cipher](#vigenere-cipher)
+  - [Modified Vigenere Cipher](#modified-vigenere-cipher)
   - [Tic Tac Toe](#tic-tac-toe)
   - [Typing Speed and Accuracy Test](#typing-speed-and-accuracy-test)
   - [Memory Tiles](#memory-tiles)
+  - [Screen Recorder](#screen-recorder)
+  - [Timed Math Challenge](#timed-math-challenge)
+  - [Mad Libs](#mad-libs)
+  - [Image to Pencil Sketch Generator](#image-to-pencil-sketch-generator)
+  - [Car Game](#car-game)
+  - [CLI-Weather App](#cli-weather-app)
+  - [Mini Wikipedia App CLI](#mini-wikipedia-app-cli)
+
   
 - [Intermediate Level Projects](#intermediate-level-projects)
   - [Snake Game](#snake-game)
@@ -27,6 +35,8 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
   - [Coffee Machine Simulator](#coffee-machine-simulator)
   - [Num Sherlock](#num-sherlock)
   - [Drowsiness Detection](#drowsiness-detection)
+  - [Mastermind Game](#mastemind-game)
+  - [Sudoku](#sudoku)
 
 ## Beginner Level Projects
 
@@ -63,6 +73,28 @@ Sharpen your typing skills with a speed and accuracy test. Practice file handlin
 ### Memory Tiles
 Test your photographic memory with this nostalgic game of matching pairs of tiles. Learn tkinter for GUI and game logic in Python.
 
+### Screen Recorder
+This is a simple Python script that can record your screen to a video file. 
+
+### Timed Math Challenge
+This simple Python script is an arithmetic quiz game that generates random arithmetic problems for the user to solve.
+
+### Mad Libs
+This Python script generates amusing and random stories using the Mad Libs format.
+
+### Image to Pencil Sketch Generator
+This program allows you to convert any image into a pencil sketch. A simple program which uses OpenCV.
+
+### Car Game
+A simple python game that gets you ready for a safe drive on road by avoiding collisions.
+
+### CLI-Weather App
+An easy to use command line weather app using Python, using the power of APIs.
+
+### Mini Wikipedia App CLI
+This is a simple program which utilizes the MediaWiki API to retrieve information such as page content, links, URLs, and more.
+
+
 ## Intermediate Level Projects
 
 ### Snake Game
@@ -91,6 +123,12 @@ Engage your mind with a number-based game featuring Sherlock Holmes. Learn GUI w
 
 ### Drowsiness Detection
 Detect drowsiness by analyzing eyes and receive alerts. Enhance your understanding of computer vision with this valuable project.
+
+### Mastemind Game
+A fun game to test your guessing powers. Guess the 4 digits number in less guesses as possible. Digits will be revealed as soon as you guessed it correctly.
+
+### Sudoku
+Embark yourself in a Sudoku quest. Perfect for learning object-oriented programming, GUI with pygame, backtracking and conditional statements.
 
 ## Contributing
 

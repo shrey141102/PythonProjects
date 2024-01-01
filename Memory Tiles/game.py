@@ -36,23 +36,22 @@ class MemoryTile:
 
     def initialize_game(self):
         self.emojis = [
-            "",
-            "'",
-            ",",
-            "'",
-            "",
-            "",
-            "'",
-            ",",
-            "'",
-            "",
+            "😈",
+            "😈",
+            "🦁",
+            "🦁",
+            "🌍",
+            "🌍",
+            "🍺",
+            "🍺",
             "⚽",
             "⚽",
-            "",
-            "'",
-            ",",
-            "'",
-        '🐉','⏳','⏳']
+            "💎",
+            "💎",
+            "🐉",
+            "🐉",
+            "⏳",
+            "⏳"]
         random.shuffle(self.emojis)  # Shuffle emojis for random placement
         self.answer = [
             self.emojis[:4],
