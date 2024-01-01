@@ -55,6 +55,7 @@ def database():
                 time.sleep(3)
                 quit()
             else :
+                os.system("cls")
                 database()
         else :
             print("Please enter from the given choices.")
@@ -101,8 +102,10 @@ def tables(db) :
         print("Tables Created Successfully...")
     decision = input("Do you want to Use these Tables here?(y/n) => ")
     if decision == "y" :
+        os.system("cls")
         menu()
     else :
+        os.sytem("cls")
         database()
     
 
@@ -134,6 +137,7 @@ def menu() :
                 os.system("cls")
                 databases()
             else :
+                os.system("cls")
                 menu()
 
 
