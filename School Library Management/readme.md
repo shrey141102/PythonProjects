@@ -112,3 +112,13 @@ Note that the effect of this function only takes place in terminals. That's why,
 
 ### 20. Exiting the Application
 <img width="675" alt="Exiting the Application" src="https://github.com/shiv325/PythonProjects/assets/139581888/78925c96-bfc0-412e-a84c-945497584e97">
+
+# Description of Tables
+### 1. School_Students
+<img width="347" alt="school_students" src="https://github.com/shiv325/PythonProjects/assets/139581888/38568df8-7b4b-42bd-9de0-9459a347ca7f">
+
+### 2. Library_Books
+<img width="345" alt="library_books" src="https://github.com/shiv325/PythonProjects/assets/139581888/15ff106a-9c18-4e79-9623-1e730c1c9f57">
+
+### 3. Issued_Books
+<img width="356" alt="issued_books" src="https://github.com/shiv325/PythonProjects/assets/139581888/3e60b0ca-7bd5-4a04-90cf-2ba9a9914112">
