@@ -24,7 +24,6 @@ def database():
     print("****************************************************************************")
     print(str(n) + ". " + "Create A New DataBase")
     print(str(n + 1) + ". " + "Exit From The Connection")
-    print(dbs)
     decision = 0
     while decision not in range(1, n + 1) :
         decision = int(input("Enter your choice => "))
@@ -56,6 +55,7 @@ def database():
                 time.sleep(3)
                 quit()
             else :
+                os.system("cls")
                 database()
         else :
             print("Please enter from the given choices.")
@@ -102,8 +102,10 @@ def tables(db) :
         print("Tables Created Successfully...")
     decision = input("Do you want to Use these Tables here?(y/n) => ")
     if decision == "y" :
+        os.system("cls")
         menu()
     else :
+        os.sytem("cls")
         database()
     
 
@@ -135,6 +137,7 @@ def menu() :
                 os.system("cls")
                 databases()
             else :
+                os.system("cls")
                 menu()
 
 
@@ -469,7 +472,7 @@ def issue_book() :
     decision = input("Are you sure you want to issue this book to this student?(y/n) => ")
     if decision == "y" :
         query = "insert into issued_books values(%s, %s, %s, %s, curdate())"
-        arg = (rno, d[0], acc_no, b[0])
+        arg = (acc_no, d[0], rno, b[0])
         cursor.execute(query, arg)
         cnx.commit()
         print("The given book has been issued.")
