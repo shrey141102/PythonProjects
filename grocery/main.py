@@ -1,43 +1,53 @@
-AvailableProductDict = {}
-
-#welcome message for the customer
-CustomerName = input("Enter your name: ")
-WelcomeMessage = f"welcome to our store {CustomerName}"
-LenMsg = len(WelcomeMessage)
-print("*"*LenMsg)
-print(WelcomeMessage)
-print("*"*LenMsg)
-
-#reading data from text file
-
-Product_file = open("/home/sahilnayak/Desktop/works/PythonProjects/grocery/AvailableProduct.txt ")
-file_lines = Product_file.readlines()
-# print(file_lines)
-
-Product_file.close()
-
-#iterate one by one all products present in the text file
-print("*************** items present in the store ******************")
-
-for i in file_lines:
-    item_name = i.split()[0]
-    item_price = i.split()[1]
-    print(f"{item_name} : {item_price}")
-    AvailableProductDict.update({item_name : item_price})
-
-# print(AvailableProductDict)
-    
-
-print("*************** items present in the store ******************")
 
 
-#getting permission from the user whether they want to proceed or not
+itemAvailableDict ={}
+shoppingDict={}
+# shoppingDict={"eggs":{"quantity":2,"subtotal":itemAvailableDict["egg"]*2}}
+#welcome User
 
-ProceedMsg = input("Do you want to proceed? (Y/N)")
+userName=input("Please enter your name: ")
+welcomeMessage=f"Welcome to my store {userName}"
+lenWCMsg=len(welcomeMessage)
+print("*"*lenWCMsg)
+print(welcomeMessage)
+print("*"*lenWCMsg)
 
-if ProceedMsg.lower() == "yes":
-    itemEntered = input("Enter the item that you want to add to your cart: ")
-    if itemEntered.title() in AvailableProductDict:
+#read data from text file 
+my_file=open("/home/sahilnayak/Desktop/works/PythonProjects/grocery/AvailableProduct.txt ")
+file_line=my_file.readline()
+itemsAvailable=my_file.readlines()
+# print(itemsAvailable)
+my_file.close()
 
+#fetch items from list and add to a dictionary
+print("***********Items Available in Our Store****************")
+for item in itemsAvailable:
+   item_name=item.split()[0]
+   item_price=item.split()[1]
+   print(f"{item_name}: {item_price}")
+   itemAvailableDict.update({item_name: float(item_price)})
+print("*"*20)
+print(itemAvailableDict)
+#prompt user to add items
+proceedShopping=input("Do you wish to proceed (yes/no): ")
+while proceedShopping.lower()=="yes":
+  item_added=input("Add an item: ")
+  if item_added.title() in itemAvailableDict:
+    item_qty=int(input("Add quantity: "))
+    shoppingDict.update({item_added:{"quantity":item_qty,"subtotal":itemAvailableDict[item_added.title()]*item_qty}})
+    print(shoppingDict)
+  else:
+    print("unable to add unavailable item")
+  proceedShopping=input("Do you wish to add more items (yes/no): ")
 else:
-    print("Please come back again!!!")
+  print("\n")
+  print("****Bill Summary***** ")
+  print("\n")
+  print("Item    Quantity    SubTotal")
+  total=0
+  for key in shoppingDict:
+    print(f"{key}    {shoppingDict[key]['quantity']}        {shoppingDict[key]['subtotal']}")
+    total=shoppingDict[key]['subtotal']+total
+    print(f"Total: {total}")
+  print("***********Thank You********")
+  print("Hope to see you back soon!")
