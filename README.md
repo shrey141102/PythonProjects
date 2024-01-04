@@ -1,5 +1,7 @@
 # PythonProjects
 
+![banner](pythonbanner.jpg)
+
 Welcome to PythonProjects, a repository filled with exciting and educational Python projects suitable for developers of all levels. Whether you're a beginner embarking on your Python journey or an intermediate developer seeking to enhance your skills, this collection has something for everyone!
 
 ## Table of Contents
@@ -41,7 +43,7 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
 
 ## Beginner Level Projects
 
-### Rock Paper Scissors
+### :rock: Rock Paper Scissors
 Challenge the computer to a classic game of rock-paper-scissors and test your luck. Simple yet entertaining for a quick gaming break.
 
 ### Hangman
@@ -134,9 +136,14 @@ Embark yourself in a Sudoku quest. Perfect for learning object-oriented programm
 ### Space Invaders
 A fun game of spaceships and spacewars!! Eliminate the enemies or you die ;) This is a perfect project for learning pygame module and game logic.
 
+
+## Stats
+ 
+ [![trophy](https://github-profile-trophy.vercel.app/?username=shrey141102)](https://github.com/shrey141102/PythonProjects/github-profile-trophy)
+
 ## Contributing
 
-We invite and encourage contributions from the community! Whether you want to add a new project, improve existing code, or fix a bug, your contributions are invaluable.
+We invite and encourage contributions from the community! Whether you want to add a new project, improve existing code, or fix a bug, your contributions are invaluable. 
 
 To contribute:
 
@@ -145,5 +152,7 @@ To contribute:
 3. Make your changes and commit them: `git commit -m 'Description of changes'`.
 4. Push to your branch: `git push origin feature-name`.
 5. Open a pull request on GitHub.
+
+For details please also see [Contributing.md](contributing.md)
 
 Let's build and learn together! Happy coding!
