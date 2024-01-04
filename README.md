@@ -18,6 +18,9 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
   - [Tic Tac Toe](#tic-tac-toe)
   - [Typing Speed and Accuracy Test](#typing-speed-and-accuracy-test)
   - [Memory Tiles](#memory-tiles)
+
+  - [Intermediate Level Projects](#intermediate-level-projects)
+  
   - [Screen Recorder](#screen-recorder)
   - [Timed Math Challenge](#timed-math-challenge)
   - [Mad Libs](#mad-libs)
@@ -28,6 +31,7 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
 
   
 - [Intermediate Level Projects](#intermediate-level-projects)
+
   - [Snake Game](#snake-game)
   - [Pong Game](#pong-game)
   - [Quiz Game](#quiz-game)
