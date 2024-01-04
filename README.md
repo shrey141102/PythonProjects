@@ -46,49 +46,49 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
 ### :rock: Rock Paper Scissors
 Challenge the computer to a classic game of rock-paper-scissors and test your luck. Simple yet entertaining for a quick gaming break.
 
-### Hangman
+### 💀Hangman
 Guess the word before the stick figure is fully drawn! A perfect project for practicing loops and conditionals.
 
-### Caesar Cipher
+### 🔐Caesar Cipher
 Explore the world of cryptography by encrypting and decrypting messages using the famous Caesar Cipher. A beginner-friendly introduction to the fascinating field of code-breaking.
 
 ### Blackjack
 Experience the thrill of the casino with a simple text-based Blackjack game. Perfect for learning about game logic and conditional statements.
 
-### Password Generator
+### 🛡️Password Generator
 Ensure your online security with a custom password generator. Create strong and secure passwords effortlessly.
 
-### Guess the Number
+### 🤔Guess the Number
 Challenge the computer to pick the correct number within a limited range. Test your guessing skills with this number-guessing game.
 
-### Vigenere Cipher
+### 🔐Vigenere Cipher
 Delve deeper into cryptography by encrypting and decrypting messages using the Vigenere Cipher. A great project for cryptography enthusiasts.
 
-### Modified Vigenere Cipher
+### 🔐Modified Vigenere Cipher
 Take on the challenge of encrypting messages using a modified Vigenere Cipher. A fun project for those who love puzzles and cryptography.
 
-### Tic Tac Toe
+### 🔴Tic Tac Toe
 Enjoy a classic game of Tic Tac Toe with friends. A simple and lightweight game suitable for any machine.
 
-### Typing Speed and Accuracy Test
+### ⌨️Typing Speed and Accuracy Test
 Sharpen your typing skills with a speed and accuracy test. Practice file handling and string manipulation while improving your typing proficiency.
 
-### Memory Tiles
+### 💿Memory Tiles
 Test your photographic memory with this nostalgic game of matching pairs of tiles. Learn tkinter for GUI and game logic in Python.
 
-### Screen Recorder
+### 🎥Screen Recorder
 This is a simple Python script that can record your screen to a video file. 
 
-### Timed Math Challenge
+### 📝Timed Math Challenge
 This simple Python script is an arithmetic quiz game that generates random arithmetic problems for the user to solve.
 
 ### Mad Libs
 This Python script generates amusing and random stories using the Mad Libs format.
 
-### Image to Pencil Sketch Generator
+### 🖋Image to Pencil Sketch Generator
 This program allows you to convert any image into a pencil sketch. A simple program which uses OpenCV.
 
-### Car Game
+### 🎮Car Game
 A simple python game that gets you ready for a safe drive on road by avoiding collisions.
 
 ### CLI-Weather App
@@ -100,7 +100,7 @@ This is a simple program which utilizes the MediaWiki API to retrieve informatio
 
 ## Intermediate Level Projects
 
-### Snake Game
+### 🐍Snake Game
 Take a trip back to the retro gaming era with a classic Snake Game. Dive into event-driven programming and user input handling.
 
 ### Pong Game
@@ -130,18 +130,18 @@ Detect drowsiness by analyzing eyes and receive alerts. Enhance your understandi
 ### Mastemind Game
 A fun game to test your guessing powers. Guess the 4 digits number in less guesses as possible. Digits will be revealed as soon as you guessed it correctly.
 
-### Sudoku
+### 🔢Sudoku
 Embark yourself in a Sudoku quest. Perfect for learning object-oriented programming, GUI with pygame, backtracking and conditional statements.
 
 ### Space Invaders
 A fun game of spaceships and spacewars!! Eliminate the enemies or you die ;) This is a perfect project for learning pygame module and game logic.
 
 
-## Stats
+## 🔥 Stats 🔥 
  
  [![trophy](https://github-profile-trophy.vercel.app/?username=shrey141102)](https://github.com/shrey141102/PythonProjects/github-profile-trophy)
 
-## Contributing
+## ✅Contributing
 
 We invite and encourage contributions from the community! Whether you want to add a new project, improve existing code, or fix a bug, your contributions are invaluable. 
 
