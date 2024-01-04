@@ -139,7 +139,7 @@ A fun game of spaceships and spacewars!! Eliminate the enemies or you die ;) Thi
 
 ## Stats
  
- [![trophy](https://github-profile-trophy.vercel.app/?username=PythonProjects)](https://github.com/PythonProjects/github-profile-trophy)
+ [![trophy](https://github-profile-trophy.vercel.app/?username=shrey141102)](https://github.com/shrey141102/PythonProjects/github-profile-trophy)
 
 ## Contributing
 
