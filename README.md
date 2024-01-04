@@ -136,6 +136,11 @@ Embark yourself in a Sudoku quest. Perfect for learning object-oriented programm
 ### Space Invaders
 A fun game of spaceships and spacewars!! Eliminate the enemies or you die ;) This is a perfect project for learning pygame module and game logic.
 
+
+## Stats
+ 
+ [![trophy](https://github-profile-trophy.vercel.app/?username=PythonProjects)](https://github.com/PythonProjects/github-profile-trophy)
+
 ## Contributing
 
 We invite and encourage contributions from the community! Whether you want to add a new project, improve existing code, or fix a bug, your contributions are invaluable. 
