@@ -8,7 +8,21 @@ Inside the `main.py` file, you'll find the ASCII art for the hand signals alread
 
 Start the game by asking the player:
 
-*"What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors."*
+*"What do you choose? Type rock , paper or scissor"*
+
+From there you will need to figure out: 
+* How you will store the user's input.
+* How you will generate a random choice for the computer.
+* How you will compare the user's and the computer's choice to determine the winner (or a draw).
+* And also how you will give feedback to the player. 
+
+You can find the "official" rules of the game on [the World Rock Paper Scissors Association website.](https://wrpsa.com/the-official-rules-of-rock-paper-scissors/)
+
+Inside the `game.py` file, you'll find the GUI(Graphics User Interface) for this game `rock`, `paper`, and `scissors`: This GUI will help the user to direct interact with a tkinter based interface for the game and ASCII is used for visualization.
+
+Start the game by asking the player:
+
+*"What do you choose? Type  Rock, Paper or Scissors."*
 
 From there you will need to figure out: 
 * How you will store the user's input.

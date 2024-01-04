@@ -1,0 +1,1 @@
+# This is a simple game made using pygame where there are two lanes on a road and a car comes from any lane.The game is to navigate our car using the left and right arrow keys on the keyboard to prevent collision.As soon as collision occurs, game stops.This game can further be iproved by increasing number of lanes and cars.
