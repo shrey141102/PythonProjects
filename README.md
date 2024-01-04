@@ -43,7 +43,7 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
 
 ## Beginner Level Projects
 
-###   Rock Paper Scissors
+### :rock: Rock Paper Scissors
 Challenge the computer to a classic game of rock-paper-scissors and test your luck. Simple yet entertaining for a quick gaming break.
 
 ### Hangman
