@@ -2,8 +2,31 @@
 {% block title %}Contacts{% endblock title %}
 {% block body %}
  
-<div class="container">
-    
+<div class="container-fluid px-0 mb-3 py-1">
+    <img src="../static/5.jpg" class="d-block w-100 mx-0" alt="...">
+</div>
+<div class="container "</div>
+    <h1 class="text-center">Contact Us</h1>
+  <form method="post" action="/contacts">
+  {% csrf_token %}
+    <div class="form-group">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" name="name"   placeholder="Shubha Ruidas">
+    </div>
+    <div class="form-group">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email"  name="email"    placeholder="name@example.com">
+    </div>
+    <div class="form-group">
+        <label for="phone" class="form-label">Enter Phone Number</label>
+        <input type="phone" class="form-control" name="phone" id="phone" placeholder="+91 8736728399">
+    </div> 
+    <div class="form-group">
+        <label for="desc">Tell me about what you want to contact me for....</label>
+        <textarea class="form-control" id="desc" rows="5" name="desc"></textarea>
+    </div>
+     <button class="btn btn-primary"  type="submit">submit</button>
+  </form>
 </div>
 
 {% endblock body %}
