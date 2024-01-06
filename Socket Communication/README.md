@@ -26,8 +26,20 @@ This project showcases a basic Python socket communication setup for client-serv
 3. Activate the virtual environment:
    - On Windows: `myenv\Scripts\activate`.
    - On macOS and Linux: `source myenv/bin/activate`.
-4. Install the required Python version mentioned in [requirements.md](requirements.md): `pip install -r requirements.txt`.
+4. Install the required Python version mentioned in [requirements.md](requirements.md).
 5. Run the server script: `python server.py`.
 6. Run the client script: `python client.py`.
+
+## Results
+
+The server and client scripts should run without any errors. The server script should display the following output:
+
+Server and client connection established.
+![Server and Client](assets/client_server_connection.png)
+
+Multiple clients can connect to the server at the same time.
+![Multiple Clients and Server](assets/multipleclient_server_connection.png)
+
+## Conclusion
 
 This project provides a straightforward example of setting up a Python socket communication system. You can adapt and modify the scripts to suit your specific requirements.

@@ -44,6 +44,7 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
   - [Mastermind Game](#mastemind-game)
   - [Sudoku](#sudoku)
   - [Space Invaders](#space-invaders)
+  - [Socket Communication](#socket-communication)
 
 ## Beginner Level Projects
 
@@ -140,6 +141,8 @@ Embark yourself in a Sudoku quest. Perfect for learning object-oriented programm
 ### Space Invaders
 A fun game of spaceships and spacewars!! Eliminate the enemies or you die ;) This is a perfect project for learning pygame module and game logic.
 
+### Socket Communication
+A project that showcases a basic Python socket communication setup for client-server interaction. The primary objective is to facilitate communication between a server and client nodes.
 
 ## Stats
  
