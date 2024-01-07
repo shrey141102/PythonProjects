@@ -1,6 +1,8 @@
-#===================================||
-# School Library Management Project ||
-#===================================||
+#============================================================================================================================================================||
+#                                                         School Library Management Project                                                                  ||
+#============================================================================================================================================================||
+
+#Importing Modules
 
 import time
 import os
@@ -10,28 +12,28 @@ def database():
     print("============================================================================")
     print("\t\t\t   Database Menu")
     print("============================================================================")
-    print("Welcome User. Choose the Desired Action.")
-    cursor.execute("show databases;")
-    databases = cursor.fetchall()
-    dbs = {}
+    print("Welcome User. Choose the Desired Action.")                                       #Menu
+    cursor.execute("show databases;")                       #Executed SQL Query to get DataBases Name
+    databases = cursor.fetchall()                           #Stored all the DataBases Names in variable
+    dbs = {}                                                #Created dictionary
     n = 1
-    for i in databases :
+    for i in databases :                                    #Looping to print the databases names
         dbs[n] = i[0]
         print(str(n) + ". " + i[0])
         n += 1
-    dbs[n] = "Create A New DataBase"
-    dbs[n + 1] = "Exit From The Connection"
+    dbs[n] = "Create A New DataBase"                        #Creating 2 more options and 
+    dbs[n + 1] = "Exit From The Connection"                 #assigning these in dictionary dbs
     print("****************************************************************************")
     print(str(n) + ". " + "Create A New DataBase")
     print(str(n + 1) + ". " + "Exit From The Connection")
     decision = 0
     while decision not in range(1, n + 1) :
-        decision = int(input("Enter your choice => "))
-        if decision in range(1, n) :
+        decision = int(input("Enter your choice => "))      #If decision is not any of the specified options, input again
+        if decision in range(1, n) :                    
             query = "USE " + dbs[decision]
-            cursor.execute(query)
+            cursor.execute(query)                           #Selected DB will be used
             os.system("cls")
-            tables(dbs[decision])
+            tables(dbs[decision])                           #Selected DB's Tables Menu will be opened
         elif decision == n :
             new_db_name = input("Enter The New DataBase Name(A-Z,a-z,0-9,_) => ")
             if new_db_name == "" :
@@ -40,7 +42,7 @@ def database():
                 dec = input("Are you sure you want to Create This DataBase?(y/n) => ")
                 if dec == "y":
                     query = "create database " + new_db_name
-                    cursor.execute(query)
+                    cursor.execute(query)                               #Creating new DB
                     cnx.commit()
                     print("Successfully created '" + new_db_name + "' DataBase...")
             input("Press Enter to go to DataBase Menu...")
@@ -51,7 +53,7 @@ def database():
             exit_decision = input("Are you sure you want to Exit?(y/n) => ")
             if exit_decision == "y" :
                 cnx.close()
-                print("See ya later.")
+                print("See ya later.")                          #Exit
                 time.sleep(3)
                 quit()
             else :
@@ -68,17 +70,17 @@ def tables(db) :
     print("============================================================================")
     cursor.execute("show tables")
     tables = cursor.fetchall()
-    n = 1
+    n = 1                                       #Printing all Tables Names
     for i in tables :
         print(str(n) + ". " + i[0])
         n += 1
     print("****************************************************************************")
     print("This Python Program Will Now Use These 3 Tables in this DataBase:")
     print("$. School_Students  $. Library_Books  $. Issued_Books")
-    print("If these tables exist already with the Specified Columns in ReadMe, use")
-    print("them directly. Otherwise Create these Tables.")
+    print("If these tables exist already with the Specified Columns in ReadMe, use")    #Before creating these 3 tables, check the Table Structure
+    print("them directly. Otherwise Create these Tables.")                              #from the ReadMe
     decision = input("Do you want to Create these Tables here?(y/n) => ")
-    if decision == "y":
+    if decision == "y":                                                         #Creating Tables via SQL Query
         cursor.execute("""CREATE TABLE IF NOT EXISTS issued_books (
   Accession_No int NOT NULL PRIMARY KEY CHECK (Accession_No > 0),
   Book_Name varchar(200) NOT NULL,
@@ -100,7 +102,7 @@ def tables(db) :
   )""")
         cnx.commit()
         print("Tables Created Successfully...")
-    decision = input("Do you want to Use these Tables here?(y/n) => ")
+    decision = input("Do you want to Use these Tables here?(y/n) => ")      #Use the Tables in Menu
     if decision == "y" :
         os.system("cls")
         menu()
@@ -127,7 +129,7 @@ def menu() :
         if decision == "1" :
             os.system("cls")
             library()
-        elif decision == "2" :
+        elif decision == "2" :                  #Library and School Menus can be accessed
             os.system("cls")
             school()
         elif decision == "3" :
@@ -174,7 +176,7 @@ def library() :
             os.system("cls")
             modify_book()
         elif decision == "5" :
-            os.system("cls")
+            os.system("cls")                    #Library Menu and its Functions
             issue_book()
         elif decision == "6" :
             os.system("cls")
@@ -209,7 +211,7 @@ def school() :
             os.system("cls")
             show_students()
         elif decision == "2" :
-            os.system("cls")
+            os.system("cls")                    #School Menu and its Functions
             add_student()
         elif decision == "3" :
             os.system("cls")
@@ -230,10 +232,10 @@ def show_books() :
     data = cursor.fetchall()
     n = 1
     for row in data :
-        print(str(n) + ". Accesion No. : {0}\n Book Name : {1}\n Author :  {2}\n Price : {3}".format(row[0], row[1], row[2], row[3]))
-        n += 1
-    print("****************************************************************************")
-    input("Press Enter to go back to the Library...")
+        print(str(n) + ". Accesion No. : {0}\n Book Name : {1}\n Author :  {2}\n Price : {3}".format(row[0], row[1], row[2], row[3])) #Printing, Accession
+        n += 1                                                                                                                        #No., Book Name,
+    print("****************************************************************************")                                             #Author, Price of
+    input("Press Enter to go back to the Library...")                                                                                 #each book
     os.system("cls")
     library()
 
@@ -245,8 +247,8 @@ def add_book() :
     print("============================================================================")
     cursor.execute("select accession_no, book_name from library_books;")
     data = cursor.fetchall()
-    a = [ ]
-    b = [ ]
+    a = [ ]                     #List to store all accession no
+    b = [ ]                     #List to store all book name
     for i in data :
         a.append(i[0])
         b.append(i[1])
@@ -303,7 +305,7 @@ def delete_book() :
     print("============================================================================")
     cursor.execute("select accession_no from library_books;")
     data = cursor.fetchall()
-    a = [ ]
+    a = [ ]                             #List to store all accession no. from library_books
     for i in data :
         a.append(i[0])
     acc_no = int(input("Enter the Accession No. => "))
@@ -316,7 +318,7 @@ def delete_book() :
     query = "select book_name, author, price_in_rs from library_books where accession_no = (%s)"
     cursor.execute(query, data)
     data = cursor.fetchall()
-    b = [ ]
+    b = [ ]                     #List to store all other info of book to be deleted
     for i in data :
         b.append(i[0])
         b.append(i[1])
@@ -328,7 +330,7 @@ def delete_book() :
     if decision == "y" :
         cursor.execute("select accession_no from issued_books;")
         data = cursor.fetchall()
-        c = [ ]
+        c = [ ]                 #List to store all accession no from issued_books
         for i in data :
             c.append(i[0])
         if acc_no in c :
@@ -761,20 +763,19 @@ def modify_student() :
     school()
 
 
-username = input("Enter the User Name for MySQL Conenction => ")
+username = input("Enter the User Name for MySQL Conenction => ")            #Authorization to connect to the MySQL in local machine
 password = input("Enter the Password to access the MySQL Connection => ")
 os.system("cls")
 try :
-    cnx = mysql.connector.connect(host = "127.0.0.1", user = username, passwd = password)
+    cnx = mysql.connector.connect(host = "127.0.0.1", user = username, passwd = password)       #Trying to connect to MySQL and creating Connection Object
 except :
-    print("Incorrect Password.")
+    print("Incorrect Login Details.")                       #When fails authorization
     input("Press Enter to Close the Program...")
     exit
 if cnx :
     print(cnx)
     print("Successfully Connected...")
-    cursor = cnx.cursor()
+    cursor = cnx.cursor()                                   #Created Cursor for Connection Object
     input("Press Enter to Access the Database Menu...")
     os.system("cls")
     database()
-
