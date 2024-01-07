@@ -23,7 +23,7 @@ def convert_currency_with_api(amount, from_currency, to_currency, api_key):
     if exchange_rate is not None:
         converted_amount = amount * exchange_rate
         result = (
-            f"{amount} {from_currency} is equal to {converted_amount} {to_currency}"
+            f"{amount} {from_currency} is equal to {round(converted_amount, 2)} {to_currency}"
         )
         return result
     else:
