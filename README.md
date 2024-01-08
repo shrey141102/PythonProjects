@@ -18,6 +18,7 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
   - [Tic Tac Toe](#tic-tac-toe)
   - [Typing Speed and Accuracy Test](#typing-speed-and-accuracy-test)
   - [Memory Tiles](#memory-tiles)
+  - [School Liibrary Management](#school-library-management)
 
   - [Intermediate Level Projects](#intermediate-level-projects)
   
@@ -101,6 +102,9 @@ An easy to use command line weather app using Python, using the power of APIs.
 
 ### Mini Wikipedia App CLI
 This is a simple program which utilizes the MediaWiki API to retrieve information such as page content, links, URLs, and more.
+
+### School Library Management
+A Python Program which uses MySQL Commands using mysql-connector to manage DataBases, School Students Records and Library Books Records.
 
 
 ## Intermediate Level Projects
