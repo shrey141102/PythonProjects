@@ -171,5 +171,4 @@ entry = tk.Entry(
     relief=tk.FLAT
 )
 entry.place(x=372 + 520, y=380, height=74)
-
 root.mainloop()
