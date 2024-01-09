@@ -12,7 +12,7 @@ class Commands:
         self.message = ""
 
     def clear(self):
-        self.t0 = int(time.time() / 10)
+        self.t0 = time.time()
         self.score = 0
         entry.delete(0, tk.END)
 
@@ -31,9 +31,9 @@ class Commands:
         return " ".join(test_sentences)
 
     def calculate_time(self):
-        self.t1 = int(time.time())
+        self.t1 = time.time()
         self.score = 0
-        self.time_taken = self.t1 - self.t0
+        self.time_taken = int(self.t1 - self.t0)  # Calculate time in seconds
         self.message = "Done!"
         typed_text_list = typed_text.get().split(" ")
         test_text_list = test_text.split(" ")
@@ -45,6 +45,10 @@ class Commands:
 
         if self.score == len(test_text_list):
             self.message = "Perfect!"
+
+        # Convert time from seconds to minutes and seconds
+        minutes_taken = self.time_taken // 60
+        seconds_taken = self.time_taken % 60
 
         result_window = tk.Toplevel(root)
         result_window.title("Result")
@@ -63,7 +67,7 @@ class Commands:
 
         time_label = tk.Label(
             result_window,
-            text="TIME TAKEN: " + str(self.time_taken) + " s",
+            text="TIME TAKEN: " + f"{minutes_taken} min {seconds_taken} sec",
             font="Arial 16 bold",
             bg="#FDFD96",
             padx=10,
@@ -115,7 +119,7 @@ entry = tk.Entry(
 )
 entry.place(x=260, y=300)
 entry.focus()
-t0 = time.time()
+commands.t0 = time.time()
 
 # Reset Button
 reset = tk.Button(
@@ -167,5 +171,4 @@ entry = tk.Entry(
     relief=tk.FLAT
 )
 entry.place(x=372 + 520, y=380, height=74)
-
 root.mainloop()
