@@ -3,10 +3,6 @@ import tkinter as tk
 import tkinter.font as tkFont
 from wonderwords import RandomSentence
 
-X = 90
-Y = 20
-
-
 class Commands:
     def __init__(self):
         self.score = 0
@@ -50,63 +46,74 @@ class Commands:
         if self.score == len(test_text_list):
             self.message = "Perfect!"
 
+        result_window = tk.Toplevel(root)
+        result_window.title("Result")
+        result_window.geometry("300x200")
+        result_window.configure(bg="#1ecbe1")
+
         score_label = tk.Label(
-            root,
+            result_window,
             text="SCORE: " + str(self.score),
-            anchor=tk.CENTER,
-            font="Arial 20 bold",
+            font="Arial 16 bold",
+            bg="#FDFD96",
+            padx=10,
+            pady=5,
         )
-        score_label.place(x=X, y=Y + 440)
+        score_label.pack()
 
         time_label = tk.Label(
-            root,
+            result_window,
             text="TIME TAKEN: " + str(self.time_taken) + " s",
-            anchor=tk.CENTER,
-            font="Arial 20 bold",
+            font="Arial 16 bold",
+            bg="#FDFD96",
+            padx=10,
+            pady=5,
         )
-        time_label.place(x=X, y=Y + 500)
+        time_label.pack()
 
         message_label = tk.Label(
-            root,
+            result_window,
             text="MESSAGE: " + str(self.message),
-            anchor=tk.CENTER,
-            font="Arial 20 bold",
+            font="Arial 16 bold",
+            bg="#FDFD96",
+            padx=10,
+            pady=5,
         )
-        message_label.place(x=X, y=Y + 560)
+        message_label.pack()
 
 
 commands = Commands()
 
 root = tk.Tk(className="Type Tester")
 root.geometry("1250x700")
+root.configure(bg="#1ecbe1")
 
 # App Title
 title = tk.Label(root, text="TYPING SPEED TEST", anchor=tk.CENTER, font="Arial 30 bold")
-title.place(x=X, y=Y)
+title.place(x=425, y=20)
+title.configure(bg="#1ecbe1")
 
 # Generate Text
 fontStyle = tkFont.Font(family="Lucida Grande", size=20)
 text = tk.Label(root, font=fontStyle, wraplength=1100, justify=tk.LEFT)
-text.place(x=X, y="90")
+text.place(x=90, y=90)
 test_text = commands.generate_text(1)
-text.config(text=test_text)
+text.config(text=test_text, bg="#1ecbe1")
 
 val = tk.IntVar()
 val.set(1)
-
 
 def set_difficulty():
     test_text = commands.generate_text(val.get())
     text.config(text=test_text)
 
-
 # Entry Point for Typing
-large_font = ("Verdana", 30)
+large_font = ("Helvetica",20 )
 typed_text = tk.StringVar()
 entry = tk.Entry(
-    root, width=45, bg="#F2BC94", fg="black", font=large_font, textvariable=typed_text
+    root, width=50, bg="#FDFD96", fg="black", font=large_font, textvariable=typed_text
 )
-entry.place(x=X, y=300)
+entry.place(x=260, y=300)
 entry.focus()
 t0 = time.time()
 
@@ -114,51 +121,51 @@ t0 = time.time()
 reset = tk.Button(
     root,
     text="RESET",
-    bg="black",
+    bg="#D5492A",
     fg="white",
     font="helvetica 20",
     padx=20,
     pady=10,
     command=commands.clear,
 )
-reset.place(x=X, y=380)
+reset.place(x=350, y=380)
 
 # Calculate Result
 result = tk.Button(
     root,
     text="RESULT",
-    bg="black",
+    bg="#D5492A",
     fg="white",
     font="helvetica 20",
     padx=20,
     pady=10,
     command=commands.calculate_time,
 )
-result.place(x=X + 150, y=380)
+result.place(x=350 + 150, y=380)
 
 # Difficulty
 difficulty = tk.Button(
     root,
     text="DIFFICULTY",
-    bg="black",
+    bg="#D5492A",
     fg="white",
     font="helvetica 20",
     padx=20,
     pady=10,
     command=set_difficulty,
 )
-difficulty.place(x=X + 320, y=380)
+difficulty.place(x=347 + 320, y=380)
 entry = tk.Entry(
     root,
     width=2,
-    bg="black",
+    bg="Black",
     fg="white",
     font=large_font,
     textvariable=val,
     borderwidth=10,
     justify="center",
-    relief=tk.FLAT,
+    relief=tk.FLAT
 )
-entry.place(x=X + 520, y=380, height=53)
+entry.place(x=372 + 520, y=380, height=74)
 
 root.mainloop()
