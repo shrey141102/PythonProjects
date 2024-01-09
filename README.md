@@ -45,6 +45,7 @@ Welcome to PythonProjects, a repository filled with exciting and educational Pyt
   - [Sudoku](#sudoku)
   - [Space Invaders](#space-invaders)
   - [Socket Communication](#socket-communication)
+  - [Simple-CHATGPT-Clone](#simple-chatgpt-clone)
 
 ## Beginner Level Projects
 
@@ -145,7 +146,10 @@ A fun game of spaceships and spacewars!! Eliminate the enemies or you die ;) Thi
 A project that showcases a basic Python socket communication setup for client-server interaction. The primary objective is to facilitate communication between a server and client nodes.
 
 ### Ice-cream parlour
-a e-commerce site made with django framework for selling icecream.
+An e-commerce site made with django framework for selling icecream.
+
+### Simple-CHATGPT-Clone
+A simple CLI ChatGPT Clone using the OpenAI API Key.
 
 ##🔥 Stats 🔥
  
